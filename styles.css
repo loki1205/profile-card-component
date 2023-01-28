@@ -3,9 +3,8 @@ body{
     background: url(../images/bg-pattern-bottom.svg) bottom -600px right -150px no-repeat, url(../images/bg-pattern-top.svg) top -500px left -200px no-repeat;
     background-color: darkcyan;
     background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;   
-    align-items: center;
+
+    
 }
 
 *{
@@ -25,6 +24,9 @@ body{
     border-radius: 15px;
     background-color: white;
     position: relative;
+    margin: 0 auto; 
+    top:50%;
+    transform: translateY(50%);
 }
 
 .card-top{
