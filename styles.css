@@ -104,7 +104,7 @@ body{
 @media screen and (max-width: 992px)
 {
     body{
-    background: url(../images/bg-pattern-bottom.svg) bottom -500px right -700px no-repeat, url(../images/bg-pattern-top.svg) top -600px left -700px no-repeat;
+    background: url("images/bg-pattern-bottom.svg") bottom -500px right -700px no-repeat, url("images/bg-pattern-top.svg") top -600px left -700px no-repeat;
     background-color: darkcyan;
 }
 }
